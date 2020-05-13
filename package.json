@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://iwashi1t.github.io/react-starter",
   "dependencies": {
     "@natade-coco/emv-code": "file:natade-coco-emv-code-0.1.0.tgz",
     "@natade-coco/pocket-sdk": "file:natade-coco-pocket-sdk-0.7.1.tgz",
@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
