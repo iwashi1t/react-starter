@@ -5,18 +5,18 @@
     "main.js.map": "/react-starter/static/js/main.84b10627.chunk.js.map",
     "runtime-main.js": "/react-starter/static/js/runtime-main.fcb3e255.js",
     "runtime-main.js.map": "/react-starter/static/js/runtime-main.fcb3e255.js.map",
-    "static/js/2.958b1ddb.chunk.js": "/react-starter/static/js/2.958b1ddb.chunk.js",
-    "static/js/2.958b1ddb.chunk.js.map": "/react-starter/static/js/2.958b1ddb.chunk.js.map",
+    "static/js/2.9429799b.chunk.js": "/react-starter/static/js/2.9429799b.chunk.js",
+    "static/js/2.9429799b.chunk.js.map": "/react-starter/static/js/2.9429799b.chunk.js.map",
     "index.html": "/react-starter/index.html",
-    "precache-manifest.48782113942609cad5ceb2f061b94ef9.js": "/react-starter/precache-manifest.48782113942609cad5ceb2f061b94ef9.js",
+    "precache-manifest.c45b7efd0634e3d5f893b36b539d0a30.js": "/react-starter/precache-manifest.c45b7efd0634e3d5f893b36b539d0a30.js",
     "service-worker.js": "/react-starter/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/react-starter/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.958b1ddb.chunk.js.LICENSE.txt": "/react-starter/static/js/2.958b1ddb.chunk.js.LICENSE.txt",
+    "static/js/2.9429799b.chunk.js.LICENSE.txt": "/react-starter/static/js/2.9429799b.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/react-starter/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fcb3e255.js",
-    "static/js/2.958b1ddb.chunk.js",
+    "static/js/2.9429799b.chunk.js",
     "static/css/main.5f361e03.chunk.css",
     "static/js/main.84b10627.chunk.js"
   ]
