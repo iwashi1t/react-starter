@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@natade-coco/emv-code": "file:natade-coco-emv-code-0.1.0.tgz",
+    "@natade-coco/pocket-sdk": "file:natade-coco-pocket-sdk-0.7.1.tgz",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.5.0",
     "@testing-library/user-event": "7.2.1",
+    "bip39": "3.0.2",
+    "ethereumjs-wallet": "0.6.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -30,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "2.2.0",
+    "golang-wasm-async-loader": "0.4.1"
   }
 }
