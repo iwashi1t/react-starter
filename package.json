@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://iwashi1t.github.io/react-starter",
   "dependencies": {
-    "@natade-coco/emv-code": "file:natade-coco-emv-code-0.1.0.tgz",
+    "@natade-coco/jpqr": "0.1.1",
     "@natade-coco/pocket-sdk": "0.7.2",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.5.0",

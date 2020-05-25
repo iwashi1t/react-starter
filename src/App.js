@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Pocket from '@natade-coco/pocket-sdk';
-import EMV from '@natade-coco/emv-code';
+import JPQR from '@natade-coco/jpqr';
 
 function App() {
   return (
@@ -60,9 +60,31 @@ function App() {
           Request SignJWT
         </button>
         <button onClick={() => {
-          EMV.getJPQR();
+          const code = JPQR.mpmEncode({
+            payloadFormatIndicator: '01',
+            pointOfInitiationMethod: 'dynamic',
+            merchantAccountInformation: [{
+              tag: '26',
+              length: '68',
+              value: '0019jp.or.paymentsjapan011300000000000010204000103060000010406000001'
+            }],
+            merchantCategoryCode: '5812',
+            transactionCurrency: '392',
+            transactionAmount: '498',
+            countryCode: 'JP',
+            merchantName: 'xxx',
+            merchantCity: 'xxx',
+            postalCode: '5300005',
+            merchantInformation: {
+              languagePreference: 'JA',
+              name: 'ナタデココ カフェ',
+              valid: true
+            }
+          });
+          console.log(code);
+          alert(code);
         }}>
-          Get JPQR
+          MPM Encode
         </button>
       </header>
     </div>
