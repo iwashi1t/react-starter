@@ -86,6 +86,12 @@ function App() {
         }}>
           MPM Encode
         </button>
+        <button onClick={() => {
+          Pocket.openInBrowser('http://natade-coco.com/')
+            .catch(error => alert(error));
+        }}>
+          Open in Browser
+        </button>
       </header>
     </div>
   );
